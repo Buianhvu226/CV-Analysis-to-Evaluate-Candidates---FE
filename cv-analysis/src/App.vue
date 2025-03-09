@@ -1,7 +1,9 @@
-<script setup></script>
+<script setup>
+// Remove the Register import
+</script>
 
 <template>
-  <div>
-    <h1 class="text-3xl font-bold underline text-red-300">Hello world!</h1>
+  <div class="min-h-screen bg-gray-50">
+    <router-view />
   </div>
 </template>
